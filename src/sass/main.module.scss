@@ -1,0 +1,33 @@
+// Global
+html {
+	scroll-behavior: smooth;
+	
+	&::-webkit-scrollbar {
+		display: none;
+		-ms-overflow-style: none;
+	}
+}
+
+//Pages
+@import '../pages/homePage/home.module.scss';
+@import '../pages/rotterdamPage/rotterdam.module.scss';
+@import '../pages/signPage/sign.module.scss';
+
+//Components
+@import '../components/button/button.module.scss';
+@import '../components/blog/blog.module.scss';
+@import '../components/likeButton/like.module.scss';
+@import '../components/navigation/navigation.module.scss';
+@import '../components/sign-in/sign.module.scss';
+
+//Variables
+@import './normalize.scss';
+@import './colors.scss';
+@import './mixins.scss';
+@import './typography.scss';
+
+
+
+
+
+

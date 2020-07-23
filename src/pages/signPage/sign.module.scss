@@ -1,0 +1,12 @@
+@import '../../sass/variables.module.scss';
+
+.sigIn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-image: url("../../assets/images/Rotterdam-zwart-wit.jpg");
+	width: 100%;
+	overflow-y: hidden;
+}

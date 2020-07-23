@@ -1,0 +1,18 @@
+@import '../../sass/variables.module.scss';
+
+.like {
+	width: 65px;
+	height: 40px;
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+
+	&:focus {
+		outline:0;
+	}
+
+	&Icon {
+		height: 30px;
+		width: 30px !important; //this is needed to remove the font-awesome styling
+	}
+}

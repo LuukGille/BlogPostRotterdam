@@ -1,0 +1,141 @@
+@import '../../sass/variables.module.scss';
+
+.menu {
+	display: flex;
+	height: 100vh;
+	font-family: $Montserrat;
+
+	&Header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 450px;
+	}
+
+	&Profile {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 15px;
+		border-top: 1px solid $black-lighter;
+		border-bottom: 1px solid $black-lighter;
+	
+		&Picture{
+			margin: 15px 0;
+	
+			&Img {
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				background-color: $black-lighter;
+				height: 200px;
+				width: 200px;
+				border-radius: 50%;
+			}
+		}
+	
+		&Text {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+	
+		&Title {
+			font-size: 25px;
+			line-height: 25px;
+			font-weight: 500;
+		}
+	
+		&Sub {
+			font-style: italic;
+		}
+	
+		&Socials {
+			display: flex;
+			width: 150px;
+			justify-content: space-around;
+			margin: 15px 0;
+		}
+	
+		&Icons {
+			display: flex;
+			width: 25px;
+			height: 25px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			transition: all .2s ease-in-out;
+	
+			&Instagram {
+				background-image: url('../../assets/images/socials/instagram.png');
+	
+				&:hover {
+					opacity: 0.9;
+					transform: scale(1.1);
+				}
+			}
+	
+			&Twitter {
+				background-image: url('../../assets/images/socials/twitter.png');
+	
+				&:hover {
+					opacity: 0.9;
+					transform: scale(1.1);
+				}
+			}
+	
+			&Facebook {
+				background-image: url('../../assets/images/socials/facebook.png');
+	
+				&:hover {
+					opacity: 0.9;
+					transform: scale(1.1);
+				}
+			}
+	
+			&Linkedin {
+				background-image: url('../../assets/images/socials/linkedin.png');
+	
+				&:hover {
+					opacity: 0.9;
+					transform: scale(1.1);
+				}
+			}
+		}
+	}
+
+	&Nav {
+		display: flex;
+		justify-content: center;
+		margin: 0 15px;
+	
+		&Section {
+			margin: 15px 0;
+			text-align: center;
+			list-style: none;
+			width: 100%;
+		}
+	
+		&Link {
+			text-decoration: none;
+			color: $black;
+			font-size: 25px;
+			width: 100%;
+	
+			&:hover {
+				font-weight: 500;
+			}
+	
+			&Active {
+				font-weight: 500;
+			}
+	
+			&Text {
+				border-bottom: 1px solid $black-lighter;
+			}
+			&Test {
+				font-size: 250px;
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+@import '../../sass/variables.module.scss';
+
+.sign {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	width: 500px;
+	background-color: $white;
+
+	&Input {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&UsernameText {
+		height: 50px;
+		width: 250px;
+		padding-left: 10px;
+	}
+
+	&PasswordText {
+		height: 50px;
+		width: 250px;
+		padding-left: 10px;
+	}
+
+	&Submit {
+		display: flex;
+		width: 250px;
+		margin-top: 10px;
+		justify-content: space-between;
+	}
+}
